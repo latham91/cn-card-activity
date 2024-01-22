@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    height: 330px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.card-header {
+    margin: 0;
+}
+
+.card-description {
+    margin: 0;
+}
+
+.card-stats {
+    margin-top: auto;
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+}
